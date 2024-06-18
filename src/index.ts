@@ -1,3 +1,5 @@
-const hello_world: string = "HELLO WORLD";
+import { config } from "./config";
 
-console.log(hello_world);
+const env_test = config.world_key;
+
+console.log(`Hello ${env_test}`);
